@@ -108,7 +108,7 @@ export const DesktopNoAi = (): JSX.Element => {
           <footer className="absolute bottom-28 left-0 right-0">
             <div className="flex items-center justify-center gap-6">
               <a 
-                href="https://morestuff.netlify.app/privacy/" 
+                href="/privacy-policy" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-white text-sm hover:underline"
