@@ -8,9 +8,9 @@ export const DesktopNoAi = (): JSX.Element => {
             <div className="flex items-center">
               <a href="/" className="block h-8 sm:h-10">
                 <img 
-                  src="/Layer 3.png" 
-                  alt="More Stuff Logo" 
-                  className="h-full w-auto"
+                  src="/ms_logo.svg" 
+                  alt="MoreStuff Logo" 
+                  className="h-auto w-[80px]"
                 />
               </a>
             </div>
@@ -22,11 +22,11 @@ export const DesktopNoAi = (): JSX.Element => {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="absolute inset-0 w-full h-full z-10"
-                  aria-label="Únete a nuestro canal de Telegram"
+                  aria-label="Join our Telegram channel"
                 ></a>
                 <div className="p-2 sm:p-3 -m-2 sm:-m-3 hover:opacity-80 transition-opacity">
                   <img
-                    src="/telegram_icon.png"
+                    src="/icon_telegram.svg"
                     alt=""
                     className="w-7 h-7 sm:w-8 sm:h-8 relative z-0"
                     aria-hidden="true"
@@ -41,7 +41,7 @@ export const DesktopNoAi = (): JSX.Element => {
                 aria-label="Twitter"
               >
                 <img
-                  src="/twitter_icon.png"
+                  src="/icon_x.svg"
                   alt="Twitter"
                   className="w-full h-full"
                 />
@@ -50,7 +50,7 @@ export const DesktopNoAi = (): JSX.Element => {
           </header>
 
           {/* Main content */}
-          <div className="flex flex-col lg:flex-row items-center justify-between max-w-[1280px] mx-auto mt-4 sm:mt-6 md:mt-8 lg:mt-[-8px]">
+          <div className="flex flex-col lg:flex-row items-center justify-between max-w-[1280px] mx-auto mt-12 sm:mt-14 md:mt-16 lg:mt-20">
             {/* Text and buttons */}
             <div className="w-full px-4 sm:px-6 lg:px-0 lg:w-[500px] text-center lg:text-left lg:ml-16 xl:ml-32">
               <h1 className="font-medium text-white text-[36px] sm:text-[48px] md:text-[56px] lg:text-[64px] leading-[1.1] mb-4 sm:mb-6">
@@ -82,10 +82,9 @@ export const DesktopNoAi = (): JSX.Element => {
             </div>
 
             {/* Phone mockups */}
-            <div className="relative mt-12 sm:mt-16 lg:mt-0 w-full max-w-[500px] sm:max-w-[600px] lg:max-w-[650px] h-[300px] sm:h-[450px] md:h-[550px] lg:h-[600px] mx-auto">
-              <div className="relative w-full h-full">
+            <div className="relative mt-8 sm:mt-6 lg:mt-0 w-full h-[380px] max-w-[500px] sm:max-w-[600px] sm:h-[500px] md:h-[580px] lg:max-w-[650px] lg:h-[650px] mx-auto">
                 {/* Right phone (behind) */}
-                <div className="absolute left-[65%] sm:left-[60%] lg:left-[35%] -translate-x-1/2 lg:translate-x-0 top-[10%] w-[220px] sm:w-[280px] md:w-[350px] lg:w-[500px] h-[330px] sm:h-[420px] md:h-[525px] lg:h-[750px] z-0">
+                <div className="absolute left-[65%] top-[5%] w-[240px] h-[360px] sm:left-[65%] sm:top-[10%] sm:w-[240px] sm:h-[360px] md:left-[65%] md:top-[5%] md:w-[400px] md:h-[600px] lg:left-[35%] lg:top-[10%] lg:w-[500px] lg:h-[750px] -translate-x-1/2 lg:translate-x-0 z-0">
                   <img
                     src="/Group 10.png"
                     alt="Chat interface"
@@ -93,21 +92,20 @@ export const DesktopNoAi = (): JSX.Element => {
                   />
                 </div>
                 {/* Left phone (in front) */}
-                <div className="absolute left-[35%] sm:left-[30%] lg:left-[10%] -translate-x-1/2 lg:translate-x-0 top-[5%] w-[220px] sm:w-[280px] md:w-[350px] lg:w-[500px] h-[330px] sm:h-[420px] md:h-[525px] lg:h-[750px] z-10">
+                <div className="absolute left-[40%] top-[2%] w-[240px] h-[360px] sm:left-[30%] sm:top-[8%] sm:w-[240px] sm:h-[360px] md:left-[35%] md:top-[0%] md:w-[400px] md:h-[600px] lg:left-[10%] lg:top-[5%] lg:w-[500px] lg:h-[750px] -translate-x-1/2 lg:translate-x-0 z-10">
                   <img
                     src="/Group 9.png"
                     alt="Task list interface"
                     className="w-full h-full object-contain drop-shadow-xl"
                   />
                 </div>
-              </div>
             </div>
           </div>
 
           {/* Footer */}
-          <footer className="absolute bottom-28 left-0 right-0 z-20">
-            <div className="flex flex-col items-center justify-center gap-2">
-              <div className="flex items-center justify-center gap-6">
+          <footer className="absolute bottom-6 sm:bottom-16 md:bottom-8 lg:bottom-14 left-0 right-0 z-20">
+            <div className="flex flex-col items-center justify-center gap-1 sm:gap-2">
+              <div className="flex items-center justify-center gap-3 sm:gap-4 md:gap-6">
                 <a 
                   href="/privacy-policy" 
                   target="_blank" 
@@ -126,7 +124,7 @@ export const DesktopNoAi = (): JSX.Element => {
                 </a>
               </div>
               <div className="text-white text-sm">
-                © 2025 MiddlePoint Solutions
+                2025 MiddlePoint Solutions
               </div>
             </div>
           </footer>
