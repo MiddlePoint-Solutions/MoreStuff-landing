@@ -105,18 +105,28 @@ export const DesktopNoAi = (): JSX.Element => {
           </div>
 
           {/* Footer */}
-          <footer className="absolute bottom-28 left-0 right-0">
-            <div className="flex items-center justify-center gap-6">
-              <a 
-                href="/privacy-policy" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="text-white text-sm hover:underline"
-              >
-                Privacy policy
-              </a>
+          <footer className="absolute bottom-28 left-0 right-0 z-20">
+            <div className="flex flex-col items-center justify-center gap-2">
+              <div className="flex items-center justify-center gap-6">
+                <a 
+                  href="/privacy-policy" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-white text-sm hover:underline"
+                >
+                  Privacy policy
+                </a>
+                <a 
+                  href="/terms-of-service" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-white text-sm hover:underline"
+                >
+                  Terms of Service
+                </a>
+              </div>
               <div className="text-white text-sm">
-                2025 MiddlePoint Solutions
+                © 2025 MiddlePoint Solutions
               </div>
             </div>
           </footer>
