@@ -1,0 +1,15 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.middlepoint.morestuff",
+      "sha256_cert_fingerprints": [
+        "38:79:F3:E7:6E:C0:48:3B:61:33:87:D8:CB:03:46:14:DA:03:56:D4:98:AD:C8:04:B7:E4:BA:F7:2C:A1:D0:C3"
+      ]
+    }
+  }
+]
