@@ -18,7 +18,15 @@ const AndroidVersionRedirect: React.FC = () => {
 
   // Auto-redirect; UI below serves as a fallback if something prevents navigation
   useEffect(() => {
-    window.location.replace(targetUrl);
+    const timer = setTimeout(() => {
+      try {
+        window.location.assign(targetUrl);
+      } catch (e) {
+        // Fallback if assign throws
+        window.location.href = targetUrl;
+      }
+    }, 100);
+    return () => clearTimeout(timer);
   }, [targetUrl]);
 
   return (
