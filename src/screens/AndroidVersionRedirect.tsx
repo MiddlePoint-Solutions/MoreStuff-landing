@@ -4,10 +4,10 @@ import { useParams } from 'react-router-dom';
 const VERSION_VIDEO_MAP: Record<number, string> = {
   14: 'https://www.youtube.com/watch?v=gcwzWzC7gUA',
   13: 'https://www.youtube.com/watch?v=9KdP2idt6LE',
-  12: 'https://www.youtube.com/watch?v=0DTjOdye6vM',
+  12: 'https://www.youtube.com/watch?v=FSRFnWlRLts',
 };
 
-const DEFAULT_VIDEO_URL = 'https://www.youtube.com/';
+const DEFAULT_VIDEO_URL = 'https://www.youtube.com/watch?v=FSRFnWlRLts';
 
 const AndroidVersionRedirect: React.FC = () => {
   const { version } = useParams<{ version: string }>();
